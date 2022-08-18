@@ -2,7 +2,7 @@
   const second = 1000,
         minute = second * 60,
         hour = minute * 60,
-        day = hour * 24;
+        day = hour * 60;
   let today = new Date(),
       dd = String(today.getDate()).padStart(2, "0"),
       mm = String(today.getMonth() + 1).padStart(2, "0"),
